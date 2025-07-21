@@ -1,0 +1,38 @@
+Consultas SQL Básicas para Sistema Financiero
+
+
+🔹 1. Top 10 préstamos más altos
+
+SELECT *
+FROM PRESTAMOS
+ORDER BY monto DESC
+LIMIT 10;
+
+📌 Explicación:
+Este script selecciona los 10 préstamos con mayor monto de la tabla PRESTAMOS, ordenados de mayor a menor.
+
+
+---
+
+🔹 2. Top 10 saldos más altos en cuentas
+
+SELECT *
+FROM CUENTAS
+ORDER BY saldo DESC
+LIMIT 10;
+
+📌 Explicación:
+Consulta que muestra las 10 cuentas bancarias con mayor saldo disponible, útil para identificar clientes con mayor capital.
+
+
+---
+
+🔹 3. Últimas 10 transacciones registradas
+
+SELECT *
+FROM TRANSACCIONES
+ORDER BY fecha DESC
+LIMIT 10;
+
+📌 Explicación:
+Este script lista las últimas 10 transacciones realizadas en el sistema financiero, ordenadas de la más reciente a la más antigua.
