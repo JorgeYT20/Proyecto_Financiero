@@ -37,12 +37,16 @@ Asegurar la integridad relacional mediante claves primarias y foráneas.
 Simular escenarios reales de una entidad financiera para pruebas y aprendizaje.
 Facilitar reportes y consultas de interés administrativo y contable.
 
+Proyecto realizado durante el curso SQL Server / Idat
+     -Docente: Jose Montenegro - Desarrollador full stack
 👥 Integrantes del Proyecto
 Jorge Yataco Torres – Desarrollador SQL
 John Fernandez Mora – Analista de Requisitos
 Mauricio – Diseñador del Modelo ER
 Pamela Llacsa Aguilar – Responsable de Evidencias
 Marcello Nonato Vertiz – Documentador
+
+-Docente: Jose Montenegro
 
 💾 Archivo Generador
 > El script `generador_banco.py` crea un archivo SQL con más de 10,000 registros usando Faker para poblar la base de datos.
